@@ -1,19 +1,39 @@
 .color-1 {
-    color: rgb(60, 179, 113);
-  }
-  
-  .color-2 {
-    color: rgb(60, 179, 163);
-  }
-  
-  .color-3 {
-    color: rgb(60, 175, 179);
-  }
-  
-  .color-4 {
-    color: rgb(60, 131, 179);
-  }
-  
-  .color-5 {
-    color: rgb(60, 88, 179);
-  }
+  background-color: rgb(103, 192, 110);
+}
+
+.color-2 {
+  background-color: rgb(134, 204, 106);
+}
+
+.color-3 {
+  background-color: rgb(178, 219, 113);
+}
+
+.color-4 {
+  background-color: rgb(207, 226, 120);
+}
+
+.color-5 {
+  background-color: rgb(238, 220, 116);
+}
+
+.color-6 {
+  background-color: rgb(241, 199, 107);
+}
+
+.color-7 {
+  background-color: rgb(243, 182, 103);
+}
+
+app-square {
+  display: block;
+  padding: 3rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+app-square:hover {
+  filter: brightness(97%);
+  transition: 0.1s;
+}

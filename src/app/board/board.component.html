@@ -1,4 +1,24 @@
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">Sort the Colors!</span>
+</nav>
+
+<div class="container">
+  <h6>
+    Click on a box to select it. Then, click on another box to swap with the selected color.
+  </h6>
+  <h6>
+    Sort from GREEN to ORANGE.
+  </h6>
+</div>
+
+<div class="container">
+  <app-win *ngIf="gameOver">
+  </app-win>
+</div>
+
 <main>
-  <app-square *ngFor="let val of squares; let i = index" [className]=val (click)="makeMove(i)">
-  </app-square>
+  <div class="container">
+    <app-square *ngFor="let val of squares; let i = index" [className]=val (click)="makeMove(i)">
+    </app-square>
+  </div>
 </main>

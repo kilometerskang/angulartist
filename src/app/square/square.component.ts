@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./square.component.css']
 })
 export class SquareComponent implements OnInit {
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
