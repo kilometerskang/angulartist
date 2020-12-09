@@ -11,7 +11,7 @@ export class WinComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.message = "You won!"
+    this.message = "YOU WON!"
   }
 
 }

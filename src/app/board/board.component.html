@@ -11,14 +11,14 @@
   </h6>
 </div>
 
-<div class="container">
-  <app-win *ngIf="gameOver">
-  </app-win>
-</div>
-
 <main>
   <div class="container">
     <app-square *ngFor="let val of squares; let i = index" [className]=val (click)="makeMove(i)">
     </app-square>
   </div>
 </main>
+
+<div class="container">
+  <app-win *ngIf="gameOver">
+  </app-win>
+</div>
